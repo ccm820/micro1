@@ -1,10 +1,10 @@
 pipeline {
-	agent any
-	stages {
-		stage {
-			steps {
-				echo "Hello Jenkins in micro1"
-			}
-		}
-	}
+    agent any
+    stages {
+        stage {
+            steps {
+                echo "Hello Jenkins in micro1"
+            }
+        }
+    }
 }
